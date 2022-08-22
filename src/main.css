@@ -8,4 +8,16 @@
 body{
     background-color: var(--background);
     color: var(--main-font);
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.larger {
+    font-size:23px;
 }
