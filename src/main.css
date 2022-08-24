@@ -2,9 +2,13 @@
     --background: #33373c;
     --main-font: #e4e4ec;
     --font: #b1b8be;
+
+    --light-green: #939d92;
+    --grey: #b1b8be;
+    --blue-gray: #b1b8be;
 }
 
-
+/* main */
 body{
     background-color: var(--background);
     color: var(--main-font);
@@ -18,6 +22,36 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+/*average */ 
+
+.button {   
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+    color: var(--red-color);
+    padding: 15px 40px 15px;
+    margin:10px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.2s ease-in-out; 
+
+
+}
+
+.button:hover {
+    color:rgb(255, 255, 255);
+    background-color:   var(--red-color);
+    cursor: pointer;
+}
+
+
+
+
+
+/* additional */
 .larger {
     font-size:23px;
 }
