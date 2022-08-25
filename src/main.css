@@ -5,7 +5,7 @@
 
     --light-green: #939d92;
     --grey: #b1b8be;
-    --blue-gray: #b1b8be;
+    --dark-grey: #1c2329;
 }
 
 /* main */
@@ -22,6 +22,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+article{
+    color: var(--dark-grey);
+}
 
 
 /*average */ 
@@ -46,6 +49,7 @@ body{
     background-color:   var(--red-color);
     cursor: pointer;
 }
+
 
 
 
