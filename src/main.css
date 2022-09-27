@@ -9,6 +9,10 @@
 }
 
 /* main */
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     background-color: var(--background);
     color: var(--main-font);
@@ -16,14 +20,15 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-.navbar{
+.poppins{
     font-family: 'Nunito', sans-serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
 }
 
 article{
-    color: var(--grey);
+    color: var(--dark-grey);
+    
 }
 
 
@@ -58,4 +63,9 @@ article{
 /* additional */
 .larger {
     font-size:23px;
+}
+
+
+.first-container{
+    background-image: url('background.jpeg')
 }

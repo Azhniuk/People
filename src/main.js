@@ -8,6 +8,3 @@ function goToPage (link){
 }
 
 
-$('.carousel').carousel({
-    interval: 2000
-  })
