@@ -2,8 +2,7 @@
     --background: #33373c;
     --main-font: #e4e4ec;
     --font: #b1b8be;
-
-    --light-green: #939d92;
+    --light: #e6e5e5;
     --grey: #b1b8be;
     --dark-grey: #1c2329;
 }
@@ -69,3 +68,36 @@ article{
 .first-container{
     background-image: url('background.jpeg')
 }
+
+
+.background-light{
+    background-color: var(--light);
+    color: var(--dark-grey);
+}
+
+img.sculpture{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%;
+    object-fit: cover;
+    background-position: center;
+
+}
+
+.sculpture:hover .overlay{
+    opacity: 1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+
