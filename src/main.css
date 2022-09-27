@@ -50,7 +50,22 @@ article{
 
 .button:hover {
     color:rgb(255, 255, 255);
-    background-color:   var(--red-color);
+    background-color:   var( --dark-grey);
+    cursor: pointer;
+}
+
+.sculpture{
+    width: 100%;
+    height:100%;
+    
+    object-fit: cover;
+    background-position: center;
+
+}
+
+.sculpture:hover{
+	opacity: .5;
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -75,17 +90,3 @@ article{
     color: var(--dark-grey);
 }
 
-.sculpture{
-    width: 100%;
-    height: 100%;
-    padding-bottom: 100%;
-    object-fit: cover;
-    background-position: center;
-
-}
-
-.sculpture:hover{
-	opacity: .5;
-    transition: 0.5s;
-    cursor: pointer;
-}
