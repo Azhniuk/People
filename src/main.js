@@ -6,3 +6,8 @@ function goToPage (link){
     window.open(link, "_blank");
 
 }
+
+
+$('.carousel').carousel({
+    interval: 2000
+  })
