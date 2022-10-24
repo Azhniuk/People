@@ -5,12 +5,12 @@
 
 
 :root{
-    --background: #33373c;
-    --main-font: #e4e4ec;
-    --hover: #8a8a8a;
-    --light: #e6e5e5;
-    --grey: #acb0b5;
-    --dark-grey: #21272d;
+    --light-blue: #DBEBF5;
+    --dark-blue: #7C91A5;
+    --yellow: #D7AA6D;
+    --pink: #D7AB99;
+    --main-font: #000;
+
 }
 
 /* main */
@@ -19,8 +19,10 @@ html {
   }
 
 body{
+    /*
     background-color: var(--background);
     color: var(--main-font);
+    */
     font-family: 'Nunito', sans-serif;
     font-family: 'Playfair Display', serif;
 }
@@ -31,17 +33,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-article{
-    color: var(--dark-grey);
-    
-}
+
 a{
     color:var(--main-font);
     font-style: italic;
 }
 
 a:hover{
-    color:var(--grey);
+   /* color:var(--grey);*/
     font-style: italic;
 }
 
@@ -49,7 +48,7 @@ a:hover{
 
 /*average */ 
 
-.button {   
+/*.button {   
     
     color:var( --dark-grey);
     background-color:  var(--main-font); 
@@ -86,7 +85,7 @@ a:hover{
     transition: 0.5s;
     cursor: pointer;
 }
-
+*/
 
 
 
@@ -95,6 +94,8 @@ a:hover{
 
 
 /* additional */
+
+/*
 .larger {
     font-size:23px;
 }
@@ -119,3 +120,4 @@ a:hover{
   }
 
 
+*/
