@@ -6,10 +6,12 @@
 
 :root{
     --light-blue: #DBEBF5;
-    --dark-blue: #7C91A5;
+    --blue: #7C91A5;
     --yellow: #D7AA6D;
     --pink: #D7AB99;
     --main-font: #000;
+    --dark-blue: #446079;
+    
 
 }
 
@@ -40,9 +42,22 @@ a{
 }
 
 a:hover{
-   /* color:var(--grey);*/
+    color:var(--dark-blue);
     font-style: italic;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
