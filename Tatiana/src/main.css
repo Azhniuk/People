@@ -1,0 +1,121 @@
+
+
+
+
+
+
+:root{
+    --background: #33373c;
+    --main-font: #e4e4ec;
+    --hover: #8a8a8a;
+    --light: #e6e5e5;
+    --grey: #acb0b5;
+    --dark-grey: #21272d;
+}
+
+/* main */
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: var(--background);
+    color: var(--main-font);
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.poppins{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+article{
+    color: var(--dark-grey);
+    
+}
+a{
+    color:var(--main-font);
+    font-style: italic;
+}
+
+a:hover{
+    color:var(--grey);
+    font-style: italic;
+}
+
+
+
+/*average */ 
+
+.button {   
+    
+    color:var( --dark-grey);
+    background-color:  var(--main-font); 
+    
+    padding: 15px 40px 15px;
+    margin:10px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease-in-out; 
+
+
+}
+
+.button:hover {
+    background-color: var(--dark-grey);
+    color:var(--main-font); 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.sculpture{
+    width: 100%;
+    height:100%;
+    
+    object-fit: cover;
+    background-position: center;
+
+}
+
+.sculpture:hover{
+	opacity: .5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* additional */
+.larger {
+    font-size:23px;
+}
+
+
+.first-container{
+    background-image: url('background.jpeg')
+}
+
+
+.background-light{
+    background-color: var(--light);
+    color: var(--dark-grey);
+}
+
+@media screen and (max-width: 600px) {
+    .smaller{
+        font-size: smaller;
+        margin:5px;
+        padding: 5px;
+    }
+  }
+
+
