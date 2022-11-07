@@ -5,6 +5,7 @@
 
 
 :root{
+    --light1-blue:#e7f3fae5;
     --light-blue: #DBEBF5;
     --blue: #7C91A5;
     --yellow: #D7AA6D;
@@ -22,9 +23,10 @@ html {
 
 body{
     /*
-    background-color: var(--background);
+   
     color: var(--main-font);
     */
+    background-color: var(--light1-blue);
     font-family: 'Nunito', sans-serif;
     font-family: 'Playfair Display', serif;
 }
@@ -47,6 +49,27 @@ a:hover{
 }
 
 
+div.part1{
+    height: 200px;
+    border: 1px solid black;
+    }
+
+
+
+.button {
+    color:var( --dark-grey);
+    background-color:  var(--main-font); 
+        
+    padding: 15px 40px 15px;
+    margin:10px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease-in-out; 
+    
+    }
+
 
 
 
@@ -63,21 +86,7 @@ a:hover{
 
 /*average */ 
 
-/*.button {   
-    
-    color:var( --dark-grey);
-    background-color:  var(--main-font); 
-    
-    padding: 15px 40px 15px;
-    margin:10px;
-    text-align: center;
-    font-weight: 700;
-    border-radius: 5px;
-    outline: none;
-    transition: all 0.5s ease-in-out; 
-
-
-}
+/*
 
 .button:hover {
     background-color: var(--dark-grey);
