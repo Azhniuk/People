@@ -57,7 +57,7 @@ div.part1{
 
 
 .button {
-    color:var( --dark-grey);
+    color:white;
     background-color:  var(--main-font); 
         
     padding: 15px 40px 15px;
@@ -81,12 +81,9 @@ div.part1{
 
 
 
-
-
-
 /*average */ 
 
-/*
+
 
 .button:hover {
     background-color: var(--dark-grey);
@@ -109,7 +106,6 @@ div.part1{
     transition: 0.5s;
     cursor: pointer;
 }
-*/
 
 
 
@@ -117,9 +113,9 @@ div.part1{
 
 
 
-/* additional */
+/*additional */
 
-/*
+
 .larger {
     font-size:23px;
 }
@@ -135,6 +131,12 @@ div.part1{
     color: var(--dark-grey);
 }
 
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
 @media screen and (max-width: 600px) {
     .smaller{
         font-size: smaller;
@@ -144,4 +146,3 @@ div.part1{
   }
 
 
-*/
