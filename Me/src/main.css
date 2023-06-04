@@ -2,15 +2,13 @@
 
 
 
-
-
 :root{
-    --background: #33373c;
-    --main-font: #e4e4ec;
-    --hover: #8a8a8a;
-    --light: #e6e5e5;
-    --grey: #acb0b5;
-    --dark-grey: #21272d;
+    --background: #a1b1ce;
+    --dark-blue: #6f85ae;
+    --yellow: #f4ae90;
+    --dark-yellow: #bb8063;
+    --main-font: #010101;
+
 }
 
 /* main */
@@ -22,7 +20,7 @@ body{
     background-color: var(--background);
     color: var(--main-font);
     font-family: 'Nunito', sans-serif;
-    font-family: 'Playfair Display', serif;
+   /* font-family: 'Playfair Display', serif;*/
 }
 
 .poppins{
@@ -31,19 +29,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-article{
-    color: var(--dark-grey);
-    
-}
-a{
-    color:var(--main-font);
-    font-style: italic;
-}
-
-a:hover{
-    color:var(--grey);
-    font-style: italic;
-}
 
 
 
@@ -72,19 +57,9 @@ a:hover{
     cursor: pointer;
 }
 
-.sculpture{
-    width: 100%;
-    height:100%;
-    
-    object-fit: cover;
-    background-position: center;
+.bg-1{
+    background-color: var(--dark-grey);
 
-}
-
-.sculpture:hover{
-	opacity: .5;
-    transition: 0.5s;
-    cursor: pointer;
 }
 
 
@@ -99,23 +74,12 @@ a:hover{
     font-size:23px;
 }
 
-
+/* 
 .first-container{
     background-image: url('background.jpeg')
 }
+ */
 
 
-.background-light{
-    background-color: var(--light);
-    color: var(--dark-grey);
-}
-
-@media screen and (max-width: 600px) {
-    .smaller{
-        font-size: smaller;
-        margin:5px;
-        padding: 5px;
-    }
-  }
 
 
